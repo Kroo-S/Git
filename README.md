@@ -4,7 +4,7 @@ git remote set-url origin  https://<your_token>@github.com/<USERNAME>/<REPO>.git
 
 
 
-#一、git基本信息
+# 一、git基本信息
 1. git status       查看git当前状态
 
 2. git init         初始化git项目
@@ -24,7 +24,8 @@ git remote set-url origin  https://<your_token>@github.com/<USERNAME>/<REPO>.git
 
 =======================================================
 
-#二、git提交代码
+    
+# 二、git提交代码
 
 【基本流程】 修改文件 -》 暂存区 -》 提交更新
 
@@ -37,7 +38,7 @@ git diff 比较文件的差异化
 
 =======================================================
 
-#三、Git协作：如何分支管理
+# 三、Git协作：如何分支管理
 
 git branch feature/3-4       创建分支
 git checkout feature/3-4     切换到新建的分支
@@ -53,7 +54,7 @@ git merge feature/3-4        合并分支
 
 =======================================================
 
-#四、Token
+# 四、Token
 
 1. 通过指令修改密码为token
 git config user.password "<your_token>"
@@ -68,7 +69,7 @@ git remote set-url origin  https://<your_token>@github.com/<USERNAME>/<REPO>.git
 
 =======================================================
 
-#五、VSCode相关问题
+# 五、VSCode相关问题
 
 Q1:VSCode提交代码后，一直转：
 
@@ -81,6 +82,6 @@ https://www.bilibili.com/video/BV1dK411p7RF/?spm_id_from=333.337.search-card.all
 
 =====================================================================
 
-#六、Github用户名更改
+# 六、Github用户名更改
 
 https://blog.csdn.net/weixin_44285445/article/details/107833418?ops_request_misc=&request_id=&biz_id=102&utm_term=github%E7%94%A8%E6%88%B7%E5%90%8D%E6%9B%B4%E6%94%B9&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-107833418.142^v87^insert_down28,239^v2^insert_chatgpt&spm=1018.2226.3001.4187
