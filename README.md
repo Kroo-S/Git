@@ -5,22 +5,22 @@ git remote set-url origin  https://<your_token>@github.com/<USERNAME>/<REPO>.git
 
 
 # 一、git基本信息
-1. git status       查看git当前状态
+    1. git status       查看git当前状态
 
-2. git init         初始化git项目
+    2. git init         初始化git项目
 
-3. git config       git配置相关操作
-    3.1. 查看git当前所有配置的位置
-         git config --list --show-origin      
-    3.2. 设置用户信息
-        git config --global user.name "XXX"
-        git config --global user.email xxx@XX.com
+    3. git config       git配置相关操作
+        3.1. 查看git当前所有配置的位置
+             git config --list --show-origin      
+        3.2. 设置用户信息
+            git config --global user.name "XXX"
+            git config --global user.email xxx@XX.com
 
-4. git help  查看git命令行使用方法
-    4.1. git help status
-    4.2. git status --help
+    4. git help  查看git命令行使用方法
+        4.1. git help status
+        4.2. git status --help
 
-5. Q：退出
+    5. Q：退出
 
 =======================================================
 
@@ -29,20 +29,22 @@ git remote set-url origin  https://<your_token>@github.com/<USERNAME>/<REPO>.git
 
 【基本流程】 修改文件 -》 暂存区 -》 提交更新
 
-git init 初始化
-git status 查看git状态
-git add .   提交所有git代码（后面加一个点）  提交到暂存区
-git commit -m "feat:project init"   提交到本地数据库中
-git log 查看刚刚提交的版本信息
-git diff 比较文件的差异化
+    git init 初始化
+    git status 查看git状态
+    git add .   提交所有git代码（后面加一个点）  提交到暂存区
+    git commit -m "feat:project init"   提交到本地数据库中
+    git log 查看刚刚提交的版本信息
+    git diff 比较文件的差异化
 
 =======================================================
 
 # 三、Git协作：如何分支管理
 
-git branch feature/3-4       创建分支
-git checkout feature/3-4     切换到新建的分支
-git merge feature/3-4        合并分支
+    git branch feature/3-4       创建分支   </br>
+    
+    git checkout feature/3-4     切换到新建的分支   </br>
+    
+    git merge feature/3-4        合并分支
 
 【 上传到github 】
 1. github上创建仓库
