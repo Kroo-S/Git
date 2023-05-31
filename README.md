@@ -87,3 +87,8 @@ https://www.bilibili.com/video/BV1dK411p7RF/?spm_id_from=333.337.search-card.all
 # 六、Github用户名更改
 
 https://blog.csdn.net/weixin_44285445/article/details/107833418?ops_request_misc=&request_id=&biz_id=102&utm_term=github%E7%94%A8%E6%88%B7%E5%90%8D%E6%9B%B4%E6%94%B9&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-107833418.142^v87^insert_down28,239^v2^insert_chatgpt&spm=1018.2226.3001.4187
+
+    
+    
+# 七、VSCode更新Github仓库代码
+    1. git push -f    强制本地代码覆盖github
